@@ -13,7 +13,7 @@ interface IProps {
 const Child: FC<IProps> = ({ className, disabled }: IProps) => {
   return (
     <button className={className} disabled={disabled}>
-      Click here {disabled ? 'hahah' : 'blabla'}
+      Click here {disabled ? 'hahah' : 'blabla'} {className}
     </button>
   );
 };
