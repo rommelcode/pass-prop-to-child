@@ -13,7 +13,7 @@ interface IProps {
 const Child: FC<IProps> = ({ className, disabled }: IProps) => {
   return (
     <button className={className} disabled={disabled}>
-      Click here {className} {disabled ? 'hahah' : 'blabla'}
+      Click here {disabled ? 'hahah' : 'blabla'}
     </button>
   );
 };
@@ -24,7 +24,7 @@ const Child: FC<IProps> = ({ className, disabled }: IProps) => {
 // };
 
 const Parent: FC = () => {
-  return <Child className={'poop'} disabled={true} />;
+  return <Child className={'poop'} disabled={false} />;
 };
 
 function App(): JSX.Element {

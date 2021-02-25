@@ -1,7 +1,7 @@
 {
-  "name": "react-hooks-typescript",
+  "name": "pass-prop-to-children",
   "version": "1.0.0",
-  "description": "React Hooks example - state and context (TypeScript)",
+  "description": "",
   "keywords": [],
   "main": "src/index.tsx",
   "dependencies": {
